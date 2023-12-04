@@ -4,7 +4,7 @@ library(ncaahoopR)
 library(DT)
 library(tidyverse)
 
-# Get play-by-play data for University of Kansas basketball team for the 2022/23 season
+# Get play-by-play data for University of Kansas basketball team for the 2021/22 season
 kansas_pbp <- get_pbp("Kansas", "2021-22")
 view(kansas_pbp)
 
